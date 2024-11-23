@@ -1,0 +1,118 @@
+/* Archivo: styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.header {
+    background-color: #4CAF50;
+    background-image: url('femboy.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    font-weight: bold; /* Negrita para que los bordes sean más visibles */
+    color: black; /* Color del texto */
+    text-shadow: 
+        2px 2px 4px white,  /* Borde exterior blanco */
+        -2px -2px 4px black, /* Borde interior negro */
+        0px 0px 5px white;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.info {
+    max-width: 60%;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    background-color: white;
+    border-radius: 50%;
+    background-size: cover;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Íconos específicos */
+.social-icon.facebook {
+    background-image: url('wiki.jpeg'); /* Agrega tu ícono de Facebook */
+}
+
+.social-icon.twitter {
+    background-image: url('descarga.png'); /* Agrega tu ícono de Twitter */
+}
+
+.social-icon.linkedin {
+    background-image: url('etsy.png'); /* Agrega tu ícono de LinkedIn */
+}
+
+.social-icon.instagram {
+    background-image: url('insta.jpeg'); /* Agrega tu ícono de Instagram */
+}
+
+/* Efecto hover */
+.social-icon:hover {
+    transform: scale(1.3); /* Aumenta el tamaño al 130% */
+    background-color: #2e7d32; /* Cambia el fondo a un color oscuro */
+}
+
+.intro p {
+    margin: 20px 0;
+}
+
+.button {
+    background-color: white;
+    color: #4CAF50;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #3e8e41;
+    color: white;
+}
+
+.education {
+    padding: 20px;
+    text-align: center;
+}
+
+.education-item {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+.education-item h3 {
+    color: #4CAF50;
+}
